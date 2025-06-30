@@ -3,6 +3,7 @@ clean:
 	@rm -rf experiments/generate_pipelines/p_.*
 	@rm -rf experiments/generate_pipelines/tmp
 
+
 sync-server:
 	rsync -azhP $(LOCAL)$(FOLDER)* $(SERVER)$(FOLDER)
 

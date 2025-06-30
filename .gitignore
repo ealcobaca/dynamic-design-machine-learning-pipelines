@@ -1,3 +1,6 @@
+*.plk
+auto-results/
+*.pkl
 env/
 env3.10/
 
