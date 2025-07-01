@@ -1,8 +1,8 @@
 # Dynamic Design of Machine Learning Pipelines via Metalearning
 
-Paper Title: Dynamic Design of Machine Learning Pipelines via Metalearning
+**Paper Title:** Dynamic Design of Machine Learning Pipelines via Metalearning
 
-Abstract: Automated machine learning (AutoML) has democratized the design of machine learning based systems, by automating model selection, hyperparameter tuning and feature engineering.
+**Abstract:** Automated machine learning (AutoML) has democratized the design of machine learning based systems, by automating model selection, hyperparameter tuning and feature engineering.
 However, the high computational cost associated with traditional search and optimization strategies, such as Random Search, Particle Swarm Optimization and Bayesian Optimization, remains a significant challenge.
 Moreover, AutoML systems typically explore a large search space, which can lead to overfitting.
 This paper introduces a metalearning method for dynamically designing search spaces for AutoML system.
@@ -40,15 +40,16 @@ This repository is organized as follow:
 ## Run
 
 * For reproduce experiment you can use Makefile for run/test:
-  - clean : clean all log data
-  - create-env-experiment : create env to run RS experiments
-  - run-example : run RS experiment example
-  - run-experiment : run RS experiment
-  - create-env-experiment-dss : create a env to run Auto-Sklearn with dynamic search space experiment
-  - run-example-dss : run Auto-Sklearn with dynamic search space experiment example
-  - run-experiment-dss : run Auto-Sklearn with dynamic search space experiment
+  - `clean` : clean all log data
+  - `create-env-experiment` : create env to run RS experiments
+  - `run-example` : run RS experiment example
+  - `run-experiment` : run RS experiment
+  - `create-env-experiment-dss` : create a env to run Auto-Sklearn with dynamic search space experiment
+  - `run-example-dss` : run Auto-Sklearn with dynamic search space experiment example
+  - `run-experiment-dss` : run Auto-Sklearn with dynamic search space experiment
 
 * For the analysis part, you should:
     - Create a Python3.10 env with `requiriments_colab.txt`
     - Run the notebooks of `analysis/`
+    - Code output can be found in this [link](https://drive.google.com/file/d/1qM99A8Znx16Dvq239eSEJE6YAZoBQR_E/view?usp=sharing)
 
