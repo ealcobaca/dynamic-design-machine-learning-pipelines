@@ -49,6 +49,6 @@ This repository is organized as follow:
   - run-experiment-dss : run Auto-Sklearn with dynamic search space experiment
 
 * For the analysis part, you should:
-    - Download the results scripts from this [link]().
     - Create a Python3.10 env with `requiriments_colab.txt`
-    - Run the notebooks
+    - Run the notebooks of `analysis/`
+
