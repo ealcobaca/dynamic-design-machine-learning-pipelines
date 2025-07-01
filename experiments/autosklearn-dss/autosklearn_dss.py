@@ -176,7 +176,8 @@ class AutoSklearnClassifierDSS(AutoSklearnClassifier):
           y_pred = model.predict(X_test)
         
           print("R2: ", r2_score(y_test, y_pred))
-          print("RMSE: ",mean_squared_error(y_test, y_pred))
+          print("RMSE: ",mean_squared_error(y_test, y_pred)**0.5)
+          print("MSE: ", mean_squared_error(y_test, y_pred))
           print("MAE: ", mean_absolute_error(y_test, y_pred))
           with open(model_path, 'wb') as file:
             pickle.dump(model, file)
